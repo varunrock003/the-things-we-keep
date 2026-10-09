@@ -1,0 +1,15 @@
+# Unity generated — patterns have no leading slash, so they also cover a project in the unity/ subfolder
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Uu]serSettings/
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.pidb
+*.user
