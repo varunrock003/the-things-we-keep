@@ -1,15 +1,23 @@
-# How we are using this repo
+# Repository collaboration and contribution plan
 
-Just a few notes for ourselves so the history stays readable.
+This file records *planned responsibilities* from the Milestone 1 GDD, not a claim that any Unity gameplay code has already been written.
 
-We commit through our own accounts and we write in the commit message what actually changed, even if it's small. Small commits are fine, "wip" messages are not, because at the end our contribution is judged partly from this history.
+## Git guidelines
+- Each member should use their own account for their actual contributions.
+- Use descriptive commit messages describing real changes; avoid empty or misleading commits.
+- Check changes before merging into `main`, especially Unity scenes and binary assets.
+- Coordinate scene ownership to avoid conflicting edits. Generated Unity folders must remain ignored.
+- Keep playtesting notes and decisions with the repository.
 
-Rough split of the work right now:
+## Team's proposed division
+- Varunteja Katakam (`varunrock003`) — lead programming, Git/build integration and project coordination
+- Venkat Preetham Gogineni (`Gogineng`) — room, puzzle and game design; playtests
+- Shruti Bharat Dadhania (`ShrutiDadhania`) — art, materials, lighting, UI, documentation and sound support
+- Hassan Hamadi (GitHub account not verified) — verb effects, hint timing, integration and testing
 
-- Varunteja sets up the project and keeps the build working
-- Venkat works on the room designs and runs the playtests
-- Shruti keeps the art, UI and the documents together
+The course project overview specifies five team members, but the submitted GDD lists four. Confirm the final roster rather than adding a name without evidence.
 
-This is a working split, not a hard rule. If one of us is stuck the others help, we just note it here or in the docs so it's visible later.
+## Milestone handoff
+Milestone 1 documents are in this repo. Unity project creation and gameplay coding are deferred to Milestone 2. See `Docs/milestone-1-repository-audit.md` and `Docs/milestone-2-start-plan.md`.
 
-We still don't have the instructor/TA GitHub usernames, so nobody has been invited from the course staff yet. We will add them as soon as we get the right usernames, we don't want to invite the wrong account by guessing.
+Instructor/TA GitHub accounts were not verified in the original team notes; obtain the correct accounts before granting access.
