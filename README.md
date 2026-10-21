@@ -1,26 +1,44 @@
 # The Things We Keep
 
-Paper Comet Studio — GAME 03, COMP3770
+**Paper Comet Studio | GAME 03 | COMP3770 | Fall 2026**
 
-This is our game. It's a short 3D puzzle game in Unity, about 15 to 20 minutes. You play as the memory of a house on the last evening before it gets sold. You can't talk to the family, so you possess objects around the house instead. Every object does one thing: the kettle steams, the lamp reveals, the clock chimes, the radio plays, and the chair slides. Using them at the right time helps Leena and Theo find three keepsakes before they leave.
+## Project concept
+*The Things We Keep* is a proposed 15–20 minute 3D narrative puzzle game made in Unity. The player is the memory of a house on its last evening before being sold. As a small glowing spirit, the player possesses ordinary objects and helps Leena and Theo discover keepsakes. Each object has one verb:
 
-We went with a dollhouse style for the rooms. The rooms are proper 3D, but the camera stays fixed for each room and the front wall is cut away, so you can see the whole room at once. That made more sense to us than walking around in first person, and it's easier to see how the family reacts to what you do.
+| Room | Object | Verb |
+| --- | --- | --- |
+| Kitchen | Kettle | Steam |
+| Living room | Lamp | Reveal |
+| Hallway | Clock | Chime |
+| Bedroom | Radio | Play |
+| Porch | Chair | Slide |
 
-## Team
+The intended visual style is a stylised, low-poly **3D dollhouse diorama** with a **fixed camera per room**. The message is that memories become meaningful through attention, care and sharing, rather than through the objects alone.
 
-- Varunteja Katakam (varunrock003) — programming, repo and build
-- Venkat Preetham Gogineni (Gogineng) — game and room design, playtesting
-- Shruti Bharat Dadhania (ShrutiDadhania) — art, UI, documents and sound
+## Milestone status (October 21, 2026)
+**Milestone 1 — concept and design:** The team has prepared the GDD, planning documents, repository setup and task assignments. The submitted Milestone 1 PDF is the primary design record.
 
-## Setup
+**Milestone 2 — implementation:** Unity project creation and scene development are planned for Milestone 2. **No Unity project, gameplay scenes or C# scripts are committed as of this update.** The presence of `unity/` does not mean the engine project exists; it currently contains a setup note only.
 
-- Unity 6.3 LTS (6000.3.25f1), 3D (URP), Windows
-- Open the project inside `unity/` with Unity Hub
-- Run `git lfs install` once after cloning, our art and audio files are stored with LFS
+See `Docs/milestone-1-repository-audit.md` and `Docs/milestone-2-start-plan.md` for the handoff.
 
-## What's in here
+## Team named in submitted GDD
+- **Varunteja Katakam** (`varunrock003`) — lead programming, Git, build integration and project management
+- **Venkat Preetham Gogineni** (`Gogineng`) — game and puzzle design, room staging and playtesting
+- **Shruti Bharat Dadhania** (`ShrutiDadhania`) — 3D art direction, materials, lighting, UI and documentation
+- **Hassan Hamadi** (GitHub username not yet verified) — verb effects, hints, integration and testing
 
-- `unity/` — the Unity project
-- `Docs/` — our design notes and art/UI notes
+The project overview specifies teams of five; this GDD names four. The roster must be confirmed rather than adding an unverified name.
 
-One thing we are careful about: don't commit `Library/`, `Temp/` or `Build/` folders. It's already handled in `.gitignore`, just don't force-add anything.
+## Repository contents
+- `Docs/design-notes-starter.md` — game and puzzle structure
+- `Docs/art-ui-notes-starter.md` — style and asset handling
+- `COMMIT-PLAN.md` — team's working Git workflow
+- `unity/README-Unity-Setup.md` — instructions for creating the Unity project in Milestone 2
+- `.gitignore` and `.gitattributes` — Unity exclusions and Git LFS patterns
+
+## Planned Unity setup — Milestone 2, not yet completed
+Use Unity 6.3 LTS and a Universal 3D (URP) template as recorded in the team's setup notes. Create the project in `unity/` or a named subfolder inside it, then commit `Assets/`, `Packages/`, `ProjectSettings/` and `.meta` files. Generated `Library/`, `Temp/` and build directories must stay uncommitted. The first planned playable slice is the kitchen and kettle possession mechanic.
+
+## Collaboration and evidence
+Use each member's own GitHub account for actual code/documentation changes. Record meaningful commits, tests, design decisions and asset licences. Do not represent planned gameplay as implemented. Follow the course's AI-use disclosure requirements in the relevant milestone deliverables.
