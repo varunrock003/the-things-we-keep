@@ -1,9 +1,14 @@
 
 using UnityEngine;
 
+/// <summary>
+/// Controls Spirit movement inside the current room.
+/// Supports WASD and arrow-key movement.
+/// </summary>
 public class SpiritMovement : MonoBehaviour
 {
     [Header("Movement")]
+    [Min(0f)]
     public float moveSpeed = 3f;
 
     [Header("Room Boundaries")]
@@ -13,8 +18,14 @@ public class SpiritMovement : MonoBehaviour
     public float maxZ = 4f;
 
     private bool canMove = true;
+    private Vector3 startingPosition;
 
-    void Update()
+    private void Awake()
+    {
+        startingPosition = transform.position;
+    }
+
+    private void Update()
     {
         if (!canMove)
             return;
@@ -53,8 +64,22 @@ public class SpiritMovement : MonoBehaviour
         transform.position = nextPosition;
     }
 
+    /// <summary>
+    /// Enables or disables movement, for example
+    /// when an object is possessed.
+    /// </summary>
     public void SetMovementEnabled(bool enabled)
     {
         canMove = enabled;
+    }
+
+    /// <summary>
+    /// Returns the Spirit to its initial position
+    /// and enables movement.
+    /// </summary>
+    public void ResetMovement()
+    {
+        transform.position = startingPosition;
+        canMove = true;
     }
 }
