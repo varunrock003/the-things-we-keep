@@ -6387,6 +6387,7 @@ MonoBehaviour:
   steamDuration: 5
   tailTime: 1.2
   burstCount: 10
+  burstCooldown: 0.5
   rattleAngle: 3
   rattleSpeed: 24
   glowTint: {r: 1, g: 0.85, b: 0.68, a: 1}
@@ -7194,6 +7195,12 @@ MonoBehaviour:
   possessionRange: 2
   objectsInRoom:
   - {fileID: 1028176547}
+  onPossessed:
+    m_PersistentCalls:
+      m_Calls: []
+  onReleased:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1394134813
 MonoBehaviour:
   m_ObjectHideFlags: 0
