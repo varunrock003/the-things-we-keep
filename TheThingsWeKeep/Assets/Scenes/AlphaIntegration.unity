@@ -5597,6 +5597,114 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311089506}
   m_CullTransparentMesh: 1
+--- !u!114 &343731921 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4857852760299439851, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+  m_PrefabInstance: {fileID: 425712565}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 923be1df6d5637549b07ebd1f25f0e16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractionUIController
+--- !u!1001 &425712565
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 357494035734822946, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_Name
+      value: PF_InteractionUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986118144279445450, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60a32959cd5ba6f47ab54577c0d90703, type: 3}
 --- !u!1 &427324208
 GameObject:
   m_ObjectHideFlags: 0
@@ -5707,6 +5815,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1394134812}
         m_TargetAssemblyTypeName: PossessionController, Assembly-CSharp
         m_MethodName: ResetPossession
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 343731921}
+        m_TargetAssemblyTypeName: InteractionUIController, Assembly-CSharp
+        m_MethodName: ResetUI
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6634,6 +6754,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 343731921}
+        m_TargetAssemblyTypeName: InteractionUIController, Assembly-CSharp
+        m_MethodName: ShowClue
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: The blue tin holds more than a recipe.
+          m_BoolArgument: 0
+        m_CallState: 2
   onSteamStopped:
     m_PersistentCalls:
       m_Calls: []
@@ -7313,6 +7445,7 @@ GameObject:
   - component: {fileID: 1394134814}
   - component: {fileID: 1394134813}
   - component: {fileID: 1394134812}
+  - component: {fileID: 1394134818}
   m_Layer: 0
   m_Name: Spirit
   m_TagString: Untagged
@@ -7453,6 +7586,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1394134818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394134811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a95b5207ab8edc4ea87ddb5677a61ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpiritUIBridge
+  possession: {fileID: 1394134812}
+  ui: {fileID: 343731921}
 --- !u!1001 &1646732549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8552,3 +8699,4 @@ SceneRoots:
   - {fileID: 254014223}
   - {fileID: 867238674}
   - {fileID: 1242991925}
+  - {fileID: 425712565}
